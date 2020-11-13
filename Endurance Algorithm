@@ -1,0 +1,16 @@
+speak(“Ready Set Go”)
+greenLight = on
+WHILE (robot not reached yellowTile)
+	Travel 22’
+Turn 90º right
+WHILE(robot not reached secondYellowTile)
+	Travel 11’ 8”
+Turn 90º right
+WHILE(robot not reached thirdYellowTile)
+	Travel 21’ 6”
+Turn 90º right
+WHILE(robot not reached yellowTile)
+	Travel 11’ 9”
+greenLight = off
+redLight = on
+speak(“I’m done and I need water!”
